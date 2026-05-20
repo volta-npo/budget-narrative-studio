@@ -36,11 +36,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/15-budget-narrative-studio.git"
+    "url": "git+https://github.com/volta-npo/budget-narrative-studio.git"
   },
-  "homepage": "https://volta-npo.github.io/15-budget-narrative-studio/",
+  "homepage": "https://volta-npo.github.io/budget-narrative-studio/",
   "bugs": {
-    "url": "https://github.com/volta-npo/15-budget-narrative-studio/issues"
+    "url": "https://github.com/volta-npo/budget-narrative-studio/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {

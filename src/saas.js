@@ -190,7 +190,7 @@ export const saas = {
             "cadence": "per budget"
         },
         {
-            "hypothesis": "Line-item prompts improve reviewer approval",
+            "hypothesis": "Line-item guidance improves reviewer approval",
             "measure": "Narrative approval rate",
             "target": "90% first-pass approval",
             "cadence": "monthly"
@@ -248,7 +248,7 @@ export const saas = {
             "owner": "Reviewer"
         },
         {
-            "name": "Narrative gap prompt",
+            "name": "Narrative gap guide",
             "trigger": "Line item lacks justification",
             "action": "Ask for activity, need, and outcome explanation",
             "owner": "Program manager"
