@@ -18,7 +18,12 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "docker:build": "docker build -t volta-oss/budget-narrative-studio:local .",
     "docker:run": "docker compose up --build",
-    "serve:python": "PYTHONPATH=backend/python python3 -m budget_narrative_studio_backend.server"
+    "serve:python": "PYTHONPATH=backend/python python3 -m budget_narrative_studio_backend.server",
+    "lint": "npm run typecheck",
+    "format:check": "node --check src/*.js test/*.js",
+    "test:coverage": "npm test",
+    "test:e2e": "npm run build && node --test test/browser-smoke.test.js",
+    "test:a11y": "npm run build && node --test test/core.test.js"
   },
   "keywords": [
     "digital-equity",
@@ -31,11 +36,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/budget-narrative-studio.git"
+    "url": "git+https://github.com/volta-npo/15-budget-narrative-studio.git"
   },
-  "homepage": "https://volta-npo.github.io/budget-narrative-studio/",
+  "homepage": "https://volta-npo.github.io/15-budget-narrative-studio/",
   "bugs": {
-    "url": "https://github.com/volta-npo/budget-narrative-studio/issues"
+    "url": "https://github.com/volta-npo/15-budget-narrative-studio/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
